@@ -1,0 +1,30 @@
+{
+  "name": "pos-backend",
+  "version": "1.0.0",
+  "description": "Backend for POS system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "expo-server-sdk": "^4.0.0",
+    "express": "^4.22.1",
+    "firebase-admin": "^13.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^7.8.7",
+    "multer": "^2.0.2",
+    "node-cron": "^4.2.1",
+    "pdfkit": "^0.17.2",
+    "razorpay": "^2.9.6",
+    "socket.io": "^4.8.1",
+    "stripe": "^19.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
