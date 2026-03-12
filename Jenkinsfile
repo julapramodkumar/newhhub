@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/julapramodkumar/newhhub.git'
+                git branch: 'main', url: 'https://github.com/julapramodkumar/newhhub.git'
             }
         }
 
